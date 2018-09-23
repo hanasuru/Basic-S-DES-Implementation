@@ -4,7 +4,10 @@ Encryption &amp; Decryption S-DES module for given plain-text
 Written in Python lang as Cryptography & Network Security Assignment
 
 ** Usage **
+
 $ python2 ./DES.py
+
+Example:
 
 Input the plain text: Hello World!
 
