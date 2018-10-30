@@ -9,7 +9,7 @@ P4          = (2, 4, 3, 1)
 S0          = np.asarray([1,0,3,2,3,2,1,0,0,2,1,3,3,1,3,2]).reshape(4,4)
 S1          = np.asarray([0,1,2,3,2,0,1,3,3,0,1,0,2,1,0,3]).reshape(4,4)
 
-KEY   = '0111111101'
+KEY   = '1111111111'
 left  = lambda x : x[:len(x)/2]
 right = lambda x : x[len(x)/2:]
 
