@@ -60,8 +60,7 @@ def decrypt(enc):
     return permutation(bit + tmp, IP_INVERSE)
 
 def main():
-    print 'Input the plain text:',
-    _plain = raw_input()
+    _plain = raw_input('Input the plain text: ')
     _encry = map(lambda x : encrypt(bin(ord(x)).lstrip('-0b').zfill(8)), list(_plain))
     _decry = map(lambda x : chr(int(decrypt(x),2)), _encry)
     _encry = map(lambda x :  chr(int(x,2)), _encry)
